@@ -33,3 +33,8 @@ Once the data was collected from the GitHub repository, the data needed to be cl
 ## EDA and Data Analysis
 I looked at the distributions of the data and the value counts for the various categorical variables and also analysed the data to identify key trend. Below are a few highlights.
 
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/fig1.png)
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/fig2.png)
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/Striker_Goals.png)
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/offsides.png)
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/cards.png)
