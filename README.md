@@ -2,6 +2,7 @@
 * Created a tool that predicts strikers goals in home/away games.
 * Used a dataset from GitHub with Fantasy Premier League data.
 * Utilised Linear Regression, Decision Tree and Random Forest Regressors to decide on the best model.
+* Wrote a detailed report outlining the motivation for this study, the findings and the potential for future work.
 
 ## Code and Resources Used 
 **Python Version:** 3.7.6  
@@ -57,5 +58,14 @@ Below is a graphic of the importance of each feature which found using Random Fo
 ![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/fig4.png)
 
 ## Model performance
+
+The Linear Regression model was the best performing model and outperformed the other two models with a higher Model Score.
+
+It also outperformed the other two models with a lower Mean Absolute Error, lower Mean Squared Error and lower Root Mean Squared Error.
+
+The performance of the 3 models is evident in the figures below.
+
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/Metrics.png)
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/Model_Performance.png)
 
 
