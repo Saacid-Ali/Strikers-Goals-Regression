@@ -38,3 +38,24 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/Striker_Goals.png)
 ![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/offsides.png)
 ![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/cards.png)
+
+## Model Building 
+
+Firstly, I dropped some variables from the training data which included player_name, Season and the goals_scored_(per_90) variable. I also dropped other variables which were irrelevant including attempted_passes_(per_90) and completed_passes_(per_90). The test data only included the goals_scored_(per_90) variable as this is what I aimed to predict. 
+
+Furthermore, I split the data into train and tests sets with a test size of 20%.  
+
+I tried three different models and evaluated them using different metrics such as Model Score, Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. I chose these different metrics because simply choosing one metric to evaluate the performance of these models does not paint the full picture of how well each model performed.
+
+I tried three different models:
+*	**Linear Regression** 
+*	**Decision Tree** 
+*	**Random Forest**  
+
+Below is a graphic of the importance of each feature which found using Random Forest.
+
+![alt text](https://github.com/Saacid-Ali/Strikers-Goals-Regression/blob/master/fig4.png)
+
+## Model performance
+
+
